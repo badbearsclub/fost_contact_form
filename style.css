@@ -1,0 +1,88 @@
+*{
+margin: 0;
+padding: 0;
+text-decoration: none;
+box-sizing: border-box;
+}
+
+
+input,
+label,
+select,
+button,
+textarea
+{
+	margin:0;
+	border:0;
+	padding:0;
+	display:inline-block;
+	vertical-align:middle;
+	white-space:normal;
+	background:none;
+	line-height:1;
+	
+	/* Browsers have different default form fonts */
+	font-size:13px;
+	font-family:Arial;
+}
+
+body{
+    background-color: #F9F9DD;
+}
+
+.nav{
+    height: 80px;
+    width: 100%;
+    /* background-color: #ffffff; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wordMark{
+    height: 60px;
+}
+
+
+.formContainer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 90%;
+    height: 100%;
+    margin: auto;
+}
+
+.formInputs{
+    margin-bottom: 20px;
+}
+
+.nameInput{
+    padding-bottom:3px;
+    border-bottom: 3px solid #ACDCD2;
+}
+
+.conversationInput{
+    padding-bottom:3px;
+    border-bottom: 3px solid #ACDCD2;
+}
+
+.textInput{
+    padding-bottom:3px;
+    border-bottom: 3px solid #ACDCD2;
+}
+
+textarea{
+    width: 80%;
+    margin:auto;
+}
+
+p, label{
+    font-family: 'Bree Serif', serif;
+    letter-spacing: 2px;
+}
+
+.submitBtn{
+    font-size: 15px;
+    border: 2px solid #F8A28C;
+    padding: 5px;
+}
