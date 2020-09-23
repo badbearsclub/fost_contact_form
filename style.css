@@ -33,11 +33,10 @@ body{
 .nav{
     padding-top: 30px;
     height: 100%;
-    width: 100%;
+    width: 80%;
+    margin: auto;
     /* background-color: #ffffff; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
 }
 
 
