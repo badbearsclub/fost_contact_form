@@ -27,20 +27,21 @@ textarea
 }
 
 body{
-    /* background-color: #F9F9DD; */
+    background-color: #F9F9DD;
 }
 
 .nav{
-    padding-top: 30px;
+    padding: 30px;
     height: 100%;
     width: 80%;
     margin: auto;
+    text-align: center;
     /* background-color: #ffffff; */
     
 }
 
 .wordMark{
-    height: 50px;
+    height: 100px;
 }
 
 
